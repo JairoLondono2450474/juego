@@ -7,7 +7,9 @@ Soldado espacial es una aventura con la cual podrás surcar los cielos evadiendo
 - Espacio en disco: 34 Mb
 
 ## Inicio rapido
-Para empezar a jugar solo debes descomprimir el archivo juego.zip dentro de el encontraras una carpeta llamada soldado espacial y dentro de esta un archivo llamado juego.exe ábrelo y disfruta.
+Recuerda que para descargar el archivo comprimido desde GitHub podrás encontrar la opción en el botón (usualmente verde) “Code”.
+
++ Para empezar a jugar solo debes descomprimir el archivo juego.zip o juego-main.zip dentro de el encontraras una carpeta llamada soldado espacial y dentro de esta un archivo llamado juego.exe ábrelo y disfruta.
 
 ## Para desarrolladores
 El código fuente y los recursos que usa el juego los puede encontrar en la carpeta dev.
@@ -29,25 +31,25 @@ En las líneas 1 a 4 importa las librerías necesarias para su desarrollo.
 
 #### Variables de configuración
 En las líneas 6 a la 24 se definen las variables de configuración del juego y la interfaz gráfica.
-SCREEN_W: Establece el ancho de la pantalla de juego, se deben usar valores enteros según la cantidad de pixeles deseados.
-SCREEN_H: Establece el alto de la pantalla de juego, se deben usar valores enteros según la cantidad de pixeles deseados.
-TEXT_COLOR: Color del texto primario desplegado en la interfaz. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
-TEXT_COLOR2: Color del texto alterno desplegado en la interfaz. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
-BG_COLOR: Color del fondo cuando se inicia una partida. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
-FPS: Controla los fotogramas máximos que puede usar el juego, se deben usar valores enteros.
-WMIN_ROCKET: Establece el ancho mínimo en pixeles de los misiles que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-WMAX_ROCKET: Establece el alto máximo en pixeles de los misiles que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-WMIN_PLASMA: Establece el ancho mínimo en pixeles de las balas de plasma que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-WMAX_PLASMA: Establece el alto máximo en pixeles de las balas de plasma que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-WMIN_VXITEM: Establece el ancho mínimo en pixeles de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-WMAX_VXITEM: Establece el ancho máximo en pixeles de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-MIN_SPEED_ENEMY: Establece el avance mínimo en pixeles por ciclo de los enemigos (misiles / balas de plasma), se deben usar valores enteros según la cantidad de pixeles deseados.
-MAX_SPEED_ENEMY: Establece el avance máximo en pixeles por ciclo de los enemigos (misiles / balas de plasma), se deben usar valores enteros según la cantidad de pixeles deseados.
-MIN_SPEED_VXITEM: Establece el avance mínimo en pixeles por ciclo de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-MAX_SPEED_VXITEM: Establece el avance mínimo en pixeles por ciclo de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
-RATENEWENEMY: Establece la taza de ciclos para generar un nuevo enemigo.
-RATENEWVXITEM: Establece la taza de ciclos para generar distractor.
-RATE_PLAYER_SPEED: Establece la taza de la velocidad de movimiento del jugador.
+- SCREEN_W: Establece el ancho de la pantalla de juego, se deben usar valores enteros según la cantidad de pixeles deseados.
+- SCREEN_H: Establece el alto de la pantalla de juego, se deben usar valores enteros según la cantidad de pixeles deseados.
+- TEXT_COLOR: Color del texto primario desplegado en la interfaz. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
+- TEXT_COLOR2: Color del texto alterno desplegado en la interfaz. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
+- BG_COLOR: Color del fondo cuando se inicia una partida. Usa una tupla de 3 valores enteros los cuales simbolizan el estándar RGB.
+- FPS: Controla los fotogramas máximos que puede usar el juego, se deben usar valores enteros.
+- WMIN_ROCKET: Establece el ancho mínimo en pixeles de los misiles que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- WMAX_ROCKET: Establece el alto máximo en pixeles de los misiles que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- WMIN_PLASMA: Establece el ancho mínimo en pixeles de las balas de plasma que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- WMAX_PLASMA: Establece el alto máximo en pixeles de las balas de plasma que atacan al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- WMIN_VXITEM: Establece el ancho mínimo en pixeles de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- WMAX_VXITEM: Establece el ancho máximo en pixeles de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- MIN_SPEED_ENEMY: Establece el avance mínimo en pixeles por ciclo de los enemigos (misiles / balas de plasma), se deben usar valores enteros según la cantidad de pixeles deseados.
+- MAX_SPEED_ENEMY: Establece el avance máximo en pixeles por ciclo de los enemigos (misiles / balas de plasma), se deben usar valores enteros según la cantidad de pixeles deseados.
+- MIN_SPEED_VXITEM: Establece el avance mínimo en pixeles por ciclo de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- MAX_SPEED_VXITEM: Establece el avance mínimo en pixeles por ciclo de los objetos usados para distraer al jugador, se deben usar valores enteros según la cantidad de pixeles deseados.
+- RATENEWENEMY: Establece la taza de ciclos para generar un nuevo enemigo.
+- RATENEWVXITEM: Establece la taza de ciclos para generar distractor.
+- RATE_PLAYER_SPEED: Establece la taza de la velocidad de movimiento del jugador.
 
 #### Funciones personalizadas
 
